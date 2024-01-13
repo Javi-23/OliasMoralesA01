@@ -1,6 +1,6 @@
 # Ejercicio 1 flutter - Estructura de Contenedores
 
-Este repositorio contiene un proyecto Flutter que presenta una interfaz de usuario simple construida con varios contenedores anidados. La estructura del proyecto incluye diferentes secciones,
+Este repositorio ejerccio es un proyecto Flutter que presenta una interfaz de usuario simple construida con varios contenedores anidados. La estructura del proyecto incluye diferentes secciones,
 cada una representada por un contenedor con colores distintivos y disposiciones específicas.
 
 ## Estructura del Proyecto
