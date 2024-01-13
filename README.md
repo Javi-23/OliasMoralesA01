@@ -13,37 +13,31 @@ cada una representada por un contenedor con colores distintivos y disposiciones 
 
 
 ### 2. Fila con Contenedores
-- Un contenedor con una altura de 200 y fondo rojo.
-- Fila de tres contenedores dentro, separados uniformemente.
-  - Contenedores con colores: Amarillo, Azul y Verde.
-  - ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/2b7f39ec-c959-409a-884e-47e329192f75)
-
+Se crea un contenedor rojo con una fila de tres contenedores más pequeños (colores ámbar, azul y verde) distribuidos equitativamente horizontalmente. 
+Se utiliza el `Padding` para añadir espacio alrededor de la fila.
+- ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/9913c13a-aa46-4897-aff7-df481b03a500)
 
 ### 3. Columna con Contenedores
-- Un contenedor con una altura de 200 y fondo azul.
-- Columna de tres contenedores dentro, espaciados uniformemente.
-  - Contenedores con colores: Rojo, Amarillo y Verde.
-  - ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/ac91147c-3180-46ca-8861-8e5eeb0fd00b)
-
+Esta sección agrega un contenedor azul con una columna de tres contenedores de colores (rojo, naranja y verde) 
+distribuidos equitativamente verticalmente.
+- ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/b29dfc3c-7d9c-4034-9d00-0e7a991768c2)
 
 ### 4. Fila y Columna Anidadas
-- Un contenedor con una altura de 200 y fondo amarillo.
-- Fila de dos contenedores:
-  - Contenedor con altura 200, ancho 200, fondo amarillo y tres cuadros en fila (Amarillo, Azul, Verde).
-  - Contenedor con altura 200, ancho 160, fondo amarillo y tres cuadros en columna (Rojo, Amarillo, Verde).
-  - ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/aa6a941d-2317-453c-ad82-5c91bdbbc2bd)
+Esta sección presenta un diseño de cuadrícula con dos columnas: la primera contiene una fila de contenedores pequeños de colores, 
+y la segunda contiene una columna de contenedores más grandes y de colores diferentes. Se utiliza el widget `Expanded` 
+para ocupar el espacio disponible en la fila.
+- ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/dabfc637-003f-4536-9b83-3f787e28ef48)
 
-### 5. Sección Adicional en Rosa con Scrolling
-- Un contenedor con altura de 200 y fondo rosa, con capacidad de desplazamiento.
-- Fila con dos contenedores dentro, representando un diseño específico.
-  - Contenedor izquierdo con tres cuadros en fila (Amarillo, Azul, Verde).
-  - Contenedor derecho con tres cuadros en columna (Rojo, Amarillo, Verde).
-  - ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/27cac3c4-971c-493d-ae36-79fcdcbb038b)
+### 5. Fila y Columna Anidadas 2
+La última sección expandida presenta un diseño de cuadrícula similar al anterior, pero con la primera columna expandida en 2 partes. Esto permite una mayor flexibilidad en la distribución de los elementos en la interfaz de usuario. Se utiliza el widget `Expanded` para expandir la primera columna.
+- ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/90fb6bbc-a8a6-413e-989d-61f0b0a27234)
 
 ### 6. Implementación de Scrolling
 - La capacidad de desplazamiento se ha agregado utilizando un `SingleChildScrollView` que envuelve la estructura de columnas y filas.
 
-### 7. Resultado final 
+### 7. Resultado final Entorno Android y Entorno web 
 ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/139059d8-b349-49e0-bce2-cb5e48c9bc52)
+
+![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/3480d8ca-7b61-479c-9193-b4345864655c)
 
 
