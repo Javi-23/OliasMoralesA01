@@ -9,7 +9,7 @@ cada una representada por un contenedor con colores distintivos y disposiciones 
 - Un contenedor con una altura de 200, fondo blanco y texto centrado.
 - Texto: 'PROYECTO 01'.
 - Estilo de texto: Negrita, tamaño de fuente 40, fuente 'Inter'.
-  -![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/34fc9daf-62ee-44bf-b9cc-80fee49835ad)
+  - ![image](https://github.com/Javi-23/oliasmoralesa01/assets/102307312/34fc9daf-62ee-44bf-b9cc-80fee49835ad)
 
 
 ### 2. Fila con Contenedores
