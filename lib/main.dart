@@ -10,201 +10,189 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Container(
-                height: 200,
-                color: Colors.white,
-                child: const Center(
-                  child: Text(
-                    'PROYECTO 01',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 40,
-                      fontFamily: 'Inter',
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          body: SingleChildScrollView(
+            child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Container(
+                    height: 200,
+                    color: Colors.white,
+                    child: const Center(
+                      child: Text(
+                        'PROYECTO 01',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 40,
+                          fontFamily: 'Inter',
+                        ),
+                      ),
                     ),
                   ),
-                ),
-              ),
-              Container(
-                height: 200,
-                color: Colors.red,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Container(
-                      margin: const EdgeInsets.only(left: 50),
-                      width: 47,
-                      height: 47,
-                      color: Colors.amber,
-                    ),
-                    Container(
-                      width: 47,
-                      height: 47,
-                      color: Colors.blue,
-                    ),
-                    Container(
-                      margin: const EdgeInsets.only(right: 50),
-                      width: 47,
-                      height: 47,
-                      color: Colors.green,
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                height: 200, // Establece la altura deseada
-                color: Colors.blue,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      width: 334,
-                      height: 44,
-                      color: Colors.red,
-                    ),
-                    Container(
-                      width: 334,
-                      height: 44,
-                      color: Colors.amber,
-                    ),
-                    Container(
-                      width: 334,
-                      height: 44,
-                      color: Colors.green,
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                height: 200,
-                color: Colors.yellow,
-                child: Row(
-                  children: [
-                    Container(
-                      height: 200,
-                      width: 200,
-                      color: Colors.yellow,
+                  Container(
+                    height: 200,
+                    color: Colors.red,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 25),
                       child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Container(
+                            width: 47,
+                            height: 47,
+                            color: Colors.amber,
+                          ),
+                          Container(
+                            width: 47,
+                            height: 47,
+                            color: Colors.blue,
+                          ),
+                          Container(
+                            width: 47,
+                            height: 47,
+                            color: Colors.green,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Container(
+                      height: 200,
+                      color: Colors.blue,
+                      child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: 10, horizontal: 25),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              Container(
+                                color: Colors.red,
+                                height: 44,
+                              ),
+                              Container(
+                                color: Colors.orange,
+                                height: 44,
+                              ),
+                              Container(
+                                color: Colors.green,
+                                height: 44,
+                              ),
+                            ],
+                          ))),
+                  Container(
+                    height: 200,
+                    color: Colors.yellow,
+                    child: Row(
+                      children: [
+                        Expanded(
+                            child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Container(
+                              color: Colors.orange,
                               width: 47,
                               height: 47,
-                              color: Colors.amber,
                             ),
                             Container(
-                              width: 47,
-                              height: 47,
                               color: Colors.blue,
-                            ),
-                            Container(
                               width: 47,
                               height: 47,
-                              color: Colors.green,
                             ),
-                          ]),
+                            Container(
+                              color: Colors.green,
+                              width: 47,
+                              height: 47,
+                            )
+                          ],
+                        )),
+                        Expanded(
+                            child: Padding(
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 10, horizontal: 25),
+                                child: Column(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceEvenly,
+                                  crossAxisAlignment:
+                                      CrossAxisAlignment.stretch,
+                                  children: [
+                                    Container(
+                                      color: Colors.red,
+                                      height: 44,
+                                    ),
+                                    Container(
+                                      color: Colors.orange,
+                                      height: 44,
+                                    ),
+                                    Container(
+                                      color: Colors.green,
+                                      height: 44,
+                                    ),
+                                  ],
+                                )))
+                      ],
                     ),
-                    Container(
+                  ),
+                  Container(
                       height: 200,
-                      width: 160,
-                      color: Colors.yellow,
-                      margin: const EdgeInsets.only(left: 30),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Container(
-                            width: 161,
-                            height: 44,
-                            color: Colors.red,
-                          ),
-                          Container(
-                            width: 161,
-                            height: 44,
-                            color: Colors.amber,
-                          ),
-                          Container(
-                            width: 161,
-                            height: 44,
-                            color: Colors.green,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                height: 200,
-                color: Colors.pink,
-                child: Row(
-                  children: [
-                    Container(
-                      height: 200,
-                      width: 250,
                       color: Colors.pink,
                       child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          mainAxisAlignment: MainAxisAlignment.spaceAround,
-                          children: [
-                            Container(
-                              width: 47,
-                              height: 47,
-                              color: Colors.amber,
-                            ),
-                            Container(
-                              width: 47,
-                              height: 47,
-                              color: Colors.blue,
-                            ),
-                            Container(
-                              width: 47,
-                              height: 47,
-                              color: Colors.green,
-                            ),
-                          ]),
-                    ),
-                    Container(
-                      height: 200,
-                      width: 160,
-                      color: Colors.pink,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          Container(
-                            width: 100,
-                            height: 44,
-                            color: Colors.red,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 44,
-                            color: Colors.amber,
-                          ),
-                          Container(
-                            width: 100,
-                            height: 44,
-                            color: Colors.green,
-                          ),
+                          Expanded(
+                              flex: 2,
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceAround,
+                                children: [
+                                  Container(
+                                    color: Colors.orange,
+                                    width: 47,
+                                    height: 47,
+                                  ),
+                                  Container(
+                                    color: Colors.blue,
+                                    width: 47,
+                                    height: 47,
+                                  ),
+                                  Container(
+                                    color: Colors.green,
+                                    width: 47,
+                                    height: 47,
+                                  )
+                                ],
+                              )),
+                          Expanded(
+                              child: Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                      vertical: 10, horizontal: 25),
+                                  child: Column(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceEvenly,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
+                                    children: [
+                                      Container(
+                                        color: Colors.red,
+                                        height: 44,
+                                      ),
+                                      Container(
+                                        color: Colors.orange,
+                                        height: 44,
+                                      ),
+                                      Container(
+                                        color: Colors.green,
+                                        height: 44,
+                                      ),
+                                    ],
+                                  )))
                         ],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
+                      ))
+                ]),
           ),
-        ),
-      ),
-    );
+        ));
   }
 }
